@@ -1,0 +1,245 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Fashion Store</title>
+<link rel="icon" href="data:image/png;base64,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">
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery.min.js"></script>
+<!-- Custom Theme files -->
+<!--theme-style-->
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />	
+<!--//theme-style-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Fashion Store Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!--fonts-->
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet' type='text/css'>
+<!--//fonts-->
+</head>
+<body> 
+	  <!--header-->
+		<div class="header">
+		<div class="header-top">
+			<div class="container">
+				<div class="header-grid">
+					<ul>
+						<li  ><a href="articles.html" class="scroll">Articles</a></li>
+						<li><a href="contact.html" class="scroll">Contact  </a></li>
+					
+								
+					</ul>
+				</div>
+				<div class="header-grid-right">
+					<a href="#" class="sign-in">Sign In</a>
+					<form>
+						<input type="text" value="Username" onfocus="this.value='';" onblur="if (this.value == '') {this.value ='';}">
+						<input type="text" value="Password" onfocus="this.value='';" onblur="if (this.value == '') {this.value ='';}">
+						<input type="submit" value="Go" >
+					</form>
+					<label>|</label>
+					<a href="signup.html" class="sign-up">Sign Up</a>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+		<div class="container">
+		<div class="header-bottom">			
+				<div class="logo">
+					<a href="index.html"><img src="images/logo.png" alt=" " ></a>
+				</div>
+					<div class="ad-right">
+					<img src="images/ad.png" alt=" " >
+				</div>
+				<div class="clearfix"> </div>
+			</div>	
+			<div class="header-bottom-bottom">
+				<div class="top-nav">
+					<span class="menu"> </span>
+					<ul>
+						<li ><a href="index.html">HOME </a></li>
+						<li class="active"><a href="men.html" >MEN</a></li>
+						<li><a href="women.html" >WOMEN</a></li>
+						<li><a href="collection.html" >COLLECTION</a></li>
+						
+					</ul>		
+					<div class="clearfix"> </div>
+				<script>
+					$("span.menu").click(function(){
+						$(".top-nav ul").slideToggle(500, function(){
+						});
+					});
+				</script>
+					
+				</div>
+				<div class="search">
+					<form>
+						<input type="text" value="Search" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '';}" >
+						<input type="submit"  value="">
+					</form>
+				</div>
+				<div class="clearfix"> </div>
+				</div>
+		</div>
+	</div>
+	<!--content-->
+	<div class="content">
+		<div class="container">
+			<div class="  col-m-on">
+				<!---->
+				<div class="in-line">
+					<div class="para-all">
+						<h3>LATEST  ARRIVALS</h3>
+						<p>Check our all latest products in this section.</p>
+					</div>
+					<div class="lady-on">
+						<div class="col-md-4 you-men">
+							<a href="single.html"><img class="img-responsive pic-in" src="images/men.jpg" alt=" " ></a>
+							<div class=" you-onto">
+								<span>15<label>%</label></span>
+							<small>off</small>
+							</div>
+							<p>Premium Denim Women's Hidden</p>
+							<span>$179.00  | <label class="cat-in"> </label> <a href="#">Add to Cart </a></span>
+						</div>
+						<div class="col-md-4 you-men">
+							<a href="single.html"><img class="img-responsive pic-in" src="images/men1.jpg" alt=" " ></a>
+							<div class=" you-onto">
+								<span>15<label>%</label></span>
+							<small>off</small>
+							</div>
+							<p>Premium Denim Women's Hidden</p>
+							<span>$179.00  | <label class="cat-in"> </label> <a href="#">Add to Cart </a></span>
+						</div>
+						<div class="col-md-4 you-men para-grid">
+							<a href="single.html"><img class="img-responsive pic-in" src="images/men2.jpg" alt=" " ></a>
+							<div class=" you-onto">
+								<span>15<label>%</label></span>
+							<small>off</small>
+							</div>
+							<p>Premium Denim Women's Hidden</p>
+							<span>$179.00  | <label class="cat-in"> </label> <a href="#">Add to Cart </a></span>
+						</div>						
+						<div class="col-md-4 you-men">
+							<a href="single.html"><img class="img-responsive pic-in" src="images/men2.jpg" alt=" " ></a>
+							<div class="you-in you-onto">
+								<span>15<label>%</label></span>
+							<small>off</small>
+							</div>
+							<p>Premium Denim Women's Hidden</p>
+							<span>$179.00  | <label class="cat-in"> </label> <a href="#">Add to Cart </a></span>
+						</div>
+						<div class="col-md-4 you-men">
+							<a href="single.html"><img class="img-responsive pic-in" src="images/men.jpg" alt=" " ></a>
+							<div class="you-in you-onto">
+								<span>15<label>%</label></span>
+							<small>off</small>
+							</div>
+							<p>Premium Denim Women's Hidden</p>
+							<span>$179.00  | <label class="cat-in"> </label> <a href="#">Add to Cart </a></span>
+						</div>
+						<div class="col-md-4 you-men para-grid">
+							<a href="single.html"><img class="img-responsive pic-in" src="images/men1.jpg" alt=" " ></a>
+							<div class=" you-onto">
+								<span>15<label>%</label></span>
+							<small>off</small>
+							</div>
+							<p>Premium Denim Women's Hidden</p>
+							<span>$179.00  | <label class="cat-in"> </label> <a href="#">Add to Cart </a></span>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+			</div>
+			<!---->
+			<div class="lady-in-on">
+			<div class="buy-an">
+						<h3>OTHER PRODUCTS</h3>
+						<p>Check our all latest products in this section.</p>
+					</div>
+					<ul id="flexiselDemo1">			
+				<li><a href="#"><img class="img-responsive women" src="images/faa.jpg" alt=""></a>
+				<div class="hide-in">
+				<p>Premium Denim Women's Hidden</p>
+				<span>$179.00  |  <a href="#">Buy Now</a></span>
+				</div></li>
+				<li><a href="#"><img class="img-responsive women" src="images/faa1.jpg" alt=""></a>
+				<div class="hide-in">
+				<p>Premium Denim Women's Hidden</p>
+				<span>$179.00  |  <a href="#">Buy Now</a></span>
+				</div></li>
+				<li><a href="#"><img class="img-responsive women" src="images/faa.jpg" alt=""></a>
+				<div class="hide-in">
+				<p>Premium Denim Women's Hidden</p>
+				<span>$179.00  |  <a href="#">Buy Now </a></span>
+				</div></li>
+				<li><a href="#"><img class="img-responsive women" src="images/faa1.jpg" alt=""></a>
+				<div class="hide-in">
+				<p>Premium Denim Women's Hidden</p>
+				<span>$179.00  |  <a href="#">Buy Now</a></span>
+				</div></a></li>
+            </ul>
+            		<script type="text/javascript">
+		$(window).load(function() {
+			$("#flexiselDemo1").flexisel({
+				visibleItems: 4,
+				animationSpeed: 1000,
+				autoPlay: true,
+				autoPlaySpeed: 3000,    		
+				pauseOnHover: true,
+				enableResponsiveBreakpoints: true,
+		    	responsiveBreakpoints: { 
+		    		portrait: { 
+		    			changePoint:480,
+		    			visibleItems: 1
+		    		}, 
+		    		landscape: { 
+		    			changePoint:640,
+		    			visibleItems: 2
+		    		},
+		    		tablet: { 
+		    			changePoint:768,
+		    			visibleItems: 3
+		    		}
+		    	}
+		    });
+		    
+		});
+	</script>
+	<script type="text/javascript" src="js/jquery.flexisel.js"></script>
+		</div>
+	</div>
+	</div>
+	<!---->
+	<div class="footer">
+		<div class="container">
+				<div class="footer-class">
+				<div class="class-footer">
+					<ul>
+						<li ><a href="index.html" class="scroll">HOME </a><label>|</label></li>
+						<li><a href="men.html" class="scroll">MEN</a><label>|</label></li>
+						<li><a href="women.html" class="scroll">WOMEN</a><label>|</label></li>
+						<li><a href="collection.html" class="scroll">COLLECTION</a><label>|</label></li>
+						
+					</ul>
+					 <p class="footer-grid">&copy; Tham khảo tại: <a href="http://w3layouts.com/" target="_blank">W3layouts</a> </p>
+				</div>	 
+				<div class="footer-left">
+					<a href="index.html"><img src="images/logo1.png" alt=" " ></a>
+				</div> 
+				</div> 
+				<div class="footer-center">
+					<h5>Thành Viên</h5>
+					<p>Nguyễn Minh Châu <label>|</label> Nguyễn Duy Phúc</p>
+					<p>Nguyễn Tuyết Ngân <label>|</label> Võ Thị Trúc Phương</p>
+				</div>
+				<div class="clearfix"> </div>
+			 	</div>
+		 </div>
+	</div>
+</body>
+</html>
